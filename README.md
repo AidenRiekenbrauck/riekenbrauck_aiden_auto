@@ -4,6 +4,7 @@ audio visual app
 ## Design
 * Illustrator
 * Photoshop
+* Adobe XD
 * Cinema 4D
  #### cinema 4D file created using X-Particles and rendered out using octane renderer
 
