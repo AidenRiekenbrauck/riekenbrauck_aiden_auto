@@ -1,15 +1,1 @@
-@font-face {
-	font-family: header;
-  src: url("../fonts/colors_of_autumn.ttf") format("truetype")}
-  
-  h1
-  {
-    font-family: header;
-  }
-
-  .main
-  {
-    text-align: center;
-    font-size: 20px;
-    margin-top: 200px;
-  }
+@import"https://fonts.googleapis.com/css?family=Montserrat|Raleway";.car{width:20%;height:auto}/*# sourceMappingURL=main.css.map */
