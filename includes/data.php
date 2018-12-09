@@ -2,34 +2,35 @@
 
 include 'connect.php';
 
-//get one video
+//get one 
 
-function get_one_video($pdo, $vid) {
-    $query = "SELECT * FROM tbl_mov WHERE id = '$vid'";
+// function get_one_video($pdo, $vid) {
+//      $query = "SELECT * FROM tbl_mov WHERE id = '$vid'";  
+//     // fill in proper db stuff once db is aquired or needed
 
-    $get_video = $pdo->query($query);
-    $results = array();
+//     $get_video = $pdo->query($query);
+//     $results = array();
 
-    while($row = $get_video->fetch(PDO::FETCH_ASSOC)) {
-        $results[] = $row;
-    }
+//     while($row = $get_video->fetch(PDO::FETCH_ASSOC)) {
+//         $results[] = $row;
+//     }
 
-    return $results;
-}
+//     return $results;
+// }
 
-//get all videos
+//get all
 
-function get_all_videos($pdo) {
-    $query = "SELECT * FROM tbl_mov";
+// function get_all_videos($pdo) {
+//     $query = "SELECT * FROM tbl_mov";
 
-    $get_video = $pdo->query($query);
-    $results = array();
+//     $get_video = $pdo->query($query);
+//     $results = array();
 
-    while($row = $get_video->fetch(PDO::FETCH_ASSOC)) {
-        $results[] = $row;
-    }
+//     while($row = $get_video->fetch(PDO::FETCH_ASSOC)) {
+//         $results[] = $row;
+//     }
 
-    return $results;
-}
+//     return $results;
+// }
 
 ?>
